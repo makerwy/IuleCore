@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041CA9DA247F99BF00E9492C /* IuleWebModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 041CA9D9247F998F00E9492C /* IuleWebModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04289CD72474D1F300BABBFC /* UUMarqueeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04289CD52474D1F300BABBFC /* UUMarqueeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04289CD82474D1F300BABBFC /* UUMarqueeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04289CD62474D1F300BABBFC /* UUMarqueeView.m */; };
+		04448130248B8E370082FC86 /* ShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444812C248B8E370082FC86 /* ShareItem.m */; };
+		04448131248B8E370082FC86 /* HCShareTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0444812D248B8E370082FC86 /* HCShareTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04448132248B8E370082FC86 /* HCShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0444812E248B8E370082FC86 /* HCShareTool.m */; };
+		04448133248B8E370082FC86 /* ShareItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 0444812F248B8E370082FC86 /* ShareItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045B62F924776DE9005D0D4A /* IuleBaseTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 045B62F724776DE9005D0D4A /* IuleBaseTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		045B62FA24776DE9005D0D4A /* IuleBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 045B62F824776DE9005D0D4A /* IuleBaseTableViewCell.m */; };
+		045B63222477FAAC005D0D4A /* IuleAppModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 045B63212477FA81005D0D4A /* IuleAppModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A122A24729457004C72EF /* IuleSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11E124729457004C72EF /* IuleSystemInfo.m */; };
+		046A122B24729457004C72EF /* IuleShareTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11E224729457004C72EF /* IuleShareTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A122C24729457004C72EF /* IuleCommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11E324729457004C72EF /* IuleCommonMethods.m */; };
+		046A122D24729457004C72EF /* IuleCacheManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11E424729457004C72EF /* IuleCacheManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A122E24729457004C72EF /* IuleSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11E524729457004C72EF /* IuleSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A122F24729457004C72EF /* IuleCommonMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11E624729457004C72EF /* IuleCommonMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A123024729457004C72EF /* IuleShareTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11E724729457004C72EF /* IuleShareTool.m */; };
+		046A123124729457004C72EF /* IuleCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11E824729457004C72EF /* IuleCacheManager.m */; };
+		046A123224729457004C72EF /* NSMutableAttributedString+LYAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11EB24729457004C72EF /* NSMutableAttributedString+LYAttributedString.m */; };
+		046A123324729457004C72EF /* UITextField+LYLimitCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11EC24729457004C72EF /* UITextField+LYLimitCount.m */; };
+		046A123424729457004C72EF /* UITextView+LYPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11ED24729457004C72EF /* UITextView+LYPlaceholder.h */; };
+		046A123524729457004C72EF /* NSObject+LYRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11EE24729457004C72EF /* NSObject+LYRuntime.h */; };
+		046A123624729457004C72EF /* UIViewController+IuleNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11EF24729457004C72EF /* UIViewController+IuleNavigationBar.h */; };
+		046A123724729457004C72EF /* UIColor+LYHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11F024729457004C72EF /* UIColor+LYHex.m */; };
+		046A123824729457004C72EF /* UIView+LYGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11F124729457004C72EF /* UIView+LYGradient.m */; };
+		046A123924729457004C72EF /* UITableView+LYMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11F224729457004C72EF /* UITableView+LYMethods.m */; };
+		046A123A24729457004C72EF /* NSArray+LYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11F324729457004C72EF /* NSArray+LYLog.m */; };
+		046A123B24729457004C72EF /* NSString+LYSize.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11F424729457004C72EF /* NSString+LYSize.h */; };
+		046A123C24729457004C72EF /* UIButton+LYPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A11F524729457004C72EF /* UIButton+LYPosition.m */; };
+		046A123D24729457004C72EF /* UIImage+LYCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11F624729457004C72EF /* UIImage+LYCreate.h */; };
+		046A123E24729457004C72EF /* NSDate+LYMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11F724729457004C72EF /* NSDate+LYMethods.h */; };
+		046A123F24729457004C72EF /* UIImage+LYGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11F824729457004C72EF /* UIImage+LYGradient.h */; };
+		046A124024729457004C72EF /* NSDictionary+LYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11F924729457004C72EF /* NSDictionary+LYLog.h */; };
+		046A124124729457004C72EF /* NSString+LYAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FA24729457004C72EF /* NSString+LYAttributedString.h */; };
+		046A124224729457004C72EF /* UIView+LYCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FB24729457004C72EF /* UIView+LYCategory.h */; };
+		046A124324729457004C72EF /* UILabel+LYCreate.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FC24729457004C72EF /* UILabel+LYCreate.h */; };
+		046A124424729458004C72EF /* UIView+LYGradient.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FD24729457004C72EF /* UIView+LYGradient.h */; };
+		046A124524729458004C72EF /* UITableView+LYMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FE24729457004C72EF /* UITableView+LYMethods.h */; };
+		046A124624729458004C72EF /* UIColor+LYHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A11FF24729457004C72EF /* UIColor+LYHex.h */; };
+		046A124724729458004C72EF /* UIViewController+IuleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120024729457004C72EF /* UIViewController+IuleNavigationBar.m */; };
+		046A124824729458004C72EF /* NSObject+LYRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120124729457004C72EF /* NSObject+LYRuntime.m */; };
+		046A124924729458004C72EF /* UITextView+LYPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120224729457004C72EF /* UITextView+LYPlaceholder.m */; };
+		046A124A24729458004C72EF /* NSMutableAttributedString+LYAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A120324729457004C72EF /* NSMutableAttributedString+LYAttributedString.h */; };
+		046A124B24729458004C72EF /* UITextField+LYLimitCount.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A120424729457004C72EF /* UITextField+LYLimitCount.h */; };
+		046A124C24729458004C72EF /* UIImage+LYCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120524729457004C72EF /* UIImage+LYCreate.m */; };
+		046A124D24729458004C72EF /* UIButton+LYPosition.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A120624729457004C72EF /* UIButton+LYPosition.h */; };
+		046A124E24729458004C72EF /* LYExtensionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A120724729457004C72EF /* LYExtensionHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A124F24729458004C72EF /* NSString+LYSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120824729457004C72EF /* NSString+LYSize.m */; };
+		046A125024729458004C72EF /* NSArray+LYLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A120924729457004C72EF /* NSArray+LYLog.h */; };
+		046A125124729458004C72EF /* NSDictionary+LYLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120A24729457004C72EF /* NSDictionary+LYLog.m */; };
+		046A125224729458004C72EF /* UIImage+LYGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120B24729457004C72EF /* UIImage+LYGradient.m */; };
+		046A125324729458004C72EF /* NSDate+LYMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120C24729457004C72EF /* NSDate+LYMethods.m */; };
+		046A125424729458004C72EF /* UILabel+LYCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120D24729457004C72EF /* UILabel+LYCreate.m */; };
+		046A125524729458004C72EF /* UIView+LYCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120E24729457004C72EF /* UIView+LYCategory.m */; };
+		046A125624729458004C72EF /* NSString+LYAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A120F24729457004C72EF /* NSString+LYAttributedString.m */; };
+		046A125724729458004C72EF /* IuleError.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121124729457004C72EF /* IuleError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A125824729458004C72EF /* IuleCall.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121224729457004C72EF /* IuleCall.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A125924729458004C72EF /* IuleBaseModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A121324729457004C72EF /* IuleBaseModule.m */; };
+		046A125A24729458004C72EF /* IuleModuleCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121424729457004C72EF /* IuleModuleCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A125B24729458004C72EF /* IuleError.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A121524729457004C72EF /* IuleError.m */; };
+		046A125C24729458004C72EF /* IuleCall.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A121624729457004C72EF /* IuleCall.m */; };
+		046A125D24729458004C72EF /* IuleModuleCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A121724729457004C72EF /* IuleModuleCenter.m */; };
+		046A125E24729458004C72EF /* IuleBaseModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121824729457004C72EF /* IuleBaseModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A125F24729458004C72EF /* IuleBaseWebProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121A24729457004C72EF /* IuleBaseWebProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126024729458004C72EF /* IuleBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121C24729457004C72EF /* IuleBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126124729458004C72EF /* IuleNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121D24729457004C72EF /* IuleNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126224729458004C72EF /* IuleBaseWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A121E24729457004C72EF /* IuleBaseWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126324729458004C72EF /* IuleNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A121F24729457004C72EF /* IuleNavigationController.m */; };
+		046A126424729458004C72EF /* IuleBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A122024729457004C72EF /* IuleBaseViewController.m */; };
+		046A126524729458004C72EF /* IuleBaseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A122124729457004C72EF /* IuleBaseWebViewController.m */; };
+		046A126624729458004C72EF /* IuleConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A122324729457004C72EF /* IuleConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126724729458004C72EF /* IuleBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A122524729457004C72EF /* IuleBaseModel.m */; };
+		046A126824729458004C72EF /* IuleBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A122624729457004C72EF /* IuleBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A126924729458004C72EF /* IuleNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A122824729457004C72EF /* IuleNavigationBar.m */; };
+		046A126A24729458004C72EF /* IuleNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A122924729457004C72EF /* IuleNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A12942472AEA5004C72EF /* IuleLoginModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A12932472AEA5004C72EF /* IuleLoginModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A12D524738E25004C72EF /* IuleLeaderModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A12D424738E25004C72EF /* IuleLeaderModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A12F02473C4D7004C72EF /* IuleTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A12EE2473C4D7004C72EF /* IuleTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A12F12473C4D7004C72EF /* IuleTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A12EF2473C4D7004C72EF /* IuleTabBarController.m */; };
+		046A130F2473D88F004C72EF /* IuleHomeModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A130E2473D7FE004C72EF /* IuleHomeModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		046A13272474063C004C72EF /* IuleSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 046A13252474063B004C72EF /* IuleSegment.m */; };
+		046A13282474063C004C72EF /* IuleSegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 046A13262474063B004C72EF /* IuleSegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0484250724935C3700B0B4C0 /* IulePlatformAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 048424FC24935C3700B0B4C0 /* IulePlatformAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0484250824935C3700B0B4C0 /* IuleAdProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 048424FD24935C3700B0B4C0 /* IuleAdProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0484250924935C3700B0B4C0 /* IuleBaseAdManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 048424FF24935C3700B0B4C0 /* IuleBaseAdManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0484250A24935C3700B0B4C0 /* IuleBaseAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484250024935C3700B0B4C0 /* IuleBaseAdManager.m */; };
+		0484250B24935C3800B0B4C0 /* IuleAdInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484250224935C3700B0B4C0 /* IuleAdInfoModel.m */; };
+		0484250C24935C3800B0B4C0 /* IuleAdInfoModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0484250324935C3700B0B4C0 /* IuleAdInfoModel.h */; };
+		0484251424935F3A00B0B4C0 /* BaseAdModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 0484251224935F3A00B0B4C0 /* BaseAdModule.h */; };
+		0484251524935F3A00B0B4C0 /* BaseAdModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 0484251324935F3A00B0B4C0 /* BaseAdModule.m */; };
+		048FD1CC2494C45900FDA43D /* IuleDevAppModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 048FD1CB2494C45900FDA43D /* IuleDevAppModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04A9406A24A1F28800895D81 /* IuleTaskModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 04A9406924A1F26900895D81 /* IuleTaskModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04E864BA24A98A1E008C3C4A /* IuleAppRequestModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E864B924A989BF008C3C4A /* IuleAppRequestModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04E9F8672394EF420002C4F5 /* IuleCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 04E9F8652394EF420002C4F5 /* IuleCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FD7B0F24F60E2E008D6972 /* IuleFriendModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FD7B0E24F60DF6008D6972 /* IuleFriendModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		15FD7B1D24F63A8A008D6972 /* IuleExclusiveModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 15FD7B1C24F63A5C008D6972 /* IuleExclusiveModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		041CA9D9247F998F00E9492C /* IuleWebModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleWebModuleProtocol.h; sourceTree = "<group>"; };
+		04289CD52474D1F300BABBFC /* UUMarqueeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUMarqueeView.h; sourceTree = "<group>"; };
+		04289CD62474D1F300BABBFC /* UUMarqueeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUMarqueeView.m; sourceTree = "<group>"; };
+		0444812C248B8E370082FC86 /* ShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareItem.m; sourceTree = "<group>"; };
+		0444812D248B8E370082FC86 /* HCShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCShareTool.h; sourceTree = "<group>"; };
+		0444812E248B8E370082FC86 /* HCShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCShareTool.m; sourceTree = "<group>"; };
+		0444812F248B8E370082FC86 /* ShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareItem.h; sourceTree = "<group>"; };
+		045B62F724776DE9005D0D4A /* IuleBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleBaseTableViewCell.h; sourceTree = "<group>"; };
+		045B62F824776DE9005D0D4A /* IuleBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IuleBaseTableViewCell.m; sourceTree = "<group>"; };
+		045B63212477FA81005D0D4A /* IuleAppModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleAppModuleProtocol.h; sourceTree = "<group>"; };
+		046A11E124729457004C72EF /* IuleSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleSystemInfo.m; sourceTree = "<group>"; };
+		046A11E224729457004C72EF /* IuleShareTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleShareTool.h; sourceTree = "<group>"; };
+		046A11E324729457004C72EF /* IuleCommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleCommonMethods.m; sourceTree = "<group>"; };
+		046A11E424729457004C72EF /* IuleCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleCacheManager.h; sourceTree = "<group>"; };
+		046A11E524729457004C72EF /* IuleSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleSystemInfo.h; sourceTree = "<group>"; };
+		046A11E624729457004C72EF /* IuleCommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleCommonMethods.h; sourceTree = "<group>"; };
+		046A11E724729457004C72EF /* IuleShareTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleShareTool.m; sourceTree = "<group>"; };
+		046A11E824729457004C72EF /* IuleCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleCacheManager.m; sourceTree = "<group>"; };
+		046A11EB24729457004C72EF /* NSMutableAttributedString+LYAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+LYAttributedString.m"; sourceTree = "<group>"; };
+		046A11EC24729457004C72EF /* UITextField+LYLimitCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+LYLimitCount.m"; sourceTree = "<group>"; };
+		046A11ED24729457004C72EF /* UITextView+LYPlaceholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+LYPlaceholder.h"; sourceTree = "<group>"; };
+		046A11EE24729457004C72EF /* NSObject+LYRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LYRuntime.h"; sourceTree = "<group>"; };
+		046A11EF24729457004C72EF /* UIViewController+IuleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+IuleNavigationBar.h"; sourceTree = "<group>"; };
+		046A11F024729457004C72EF /* UIColor+LYHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LYHex.m"; sourceTree = "<group>"; };
+		046A11F124729457004C72EF /* UIView+LYGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYGradient.m"; sourceTree = "<group>"; };
+		046A11F224729457004C72EF /* UITableView+LYMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+LYMethods.m"; sourceTree = "<group>"; };
+		046A11F324729457004C72EF /* NSArray+LYLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+LYLog.m"; sourceTree = "<group>"; };
+		046A11F424729457004C72EF /* NSString+LYSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYSize.h"; sourceTree = "<group>"; };
+		046A11F524729457004C72EF /* UIButton+LYPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LYPosition.m"; sourceTree = "<group>"; };
+		046A11F624729457004C72EF /* UIImage+LYCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYCreate.h"; sourceTree = "<group>"; };
+		046A11F724729457004C72EF /* NSDate+LYMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LYMethods.h"; sourceTree = "<group>"; };
+		046A11F824729457004C72EF /* UIImage+LYGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LYGradient.h"; sourceTree = "<group>"; };
+		046A11F924729457004C72EF /* NSDictionary+LYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+LYLog.h"; sourceTree = "<group>"; };
+		046A11FA24729457004C72EF /* NSString+LYAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LYAttributedString.h"; sourceTree = "<group>"; };
+		046A11FB24729457004C72EF /* UIView+LYCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYCategory.h"; sourceTree = "<group>"; };
+		046A11FC24729457004C72EF /* UILabel+LYCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LYCreate.h"; sourceTree = "<group>"; };
+		046A11FD24729457004C72EF /* UIView+LYGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYGradient.h"; sourceTree = "<group>"; };
+		046A11FE24729457004C72EF /* UITableView+LYMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+LYMethods.h"; sourceTree = "<group>"; };
+		046A11FF24729457004C72EF /* UIColor+LYHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LYHex.h"; sourceTree = "<group>"; };
+		046A120024729457004C72EF /* UIViewController+IuleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+IuleNavigationBar.m"; sourceTree = "<group>"; };
+		046A120124729457004C72EF /* NSObject+LYRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LYRuntime.m"; sourceTree = "<group>"; };
+		046A120224729457004C72EF /* UITextView+LYPlaceholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+LYPlaceholder.m"; sourceTree = "<group>"; };
+		046A120324729457004C72EF /* NSMutableAttributedString+LYAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+LYAttributedString.h"; sourceTree = "<group>"; };
+		046A120424729457004C72EF /* UITextField+LYLimitCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+LYLimitCount.h"; sourceTree = "<group>"; };
+		046A120524729457004C72EF /* UIImage+LYCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYCreate.m"; sourceTree = "<group>"; };
+		046A120624729457004C72EF /* UIButton+LYPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LYPosition.h"; sourceTree = "<group>"; };
+		046A120724729457004C72EF /* LYExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYExtensionHeader.h; sourceTree = "<group>"; };
+		046A120824729457004C72EF /* NSString+LYSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYSize.m"; sourceTree = "<group>"; };
+		046A120924729457004C72EF /* NSArray+LYLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+LYLog.h"; sourceTree = "<group>"; };
+		046A120A24729457004C72EF /* NSDictionary+LYLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+LYLog.m"; sourceTree = "<group>"; };
+		046A120B24729457004C72EF /* UIImage+LYGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LYGradient.m"; sourceTree = "<group>"; };
+		046A120C24729457004C72EF /* NSDate+LYMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LYMethods.m"; sourceTree = "<group>"; };
+		046A120D24729457004C72EF /* UILabel+LYCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LYCreate.m"; sourceTree = "<group>"; };
+		046A120E24729457004C72EF /* UIView+LYCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYCategory.m"; sourceTree = "<group>"; };
+		046A120F24729457004C72EF /* NSString+LYAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LYAttributedString.m"; sourceTree = "<group>"; };
+		046A121124729457004C72EF /* IuleError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleError.h; sourceTree = "<group>"; };
+		046A121224729457004C72EF /* IuleCall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleCall.h; sourceTree = "<group>"; };
+		046A121324729457004C72EF /* IuleBaseModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleBaseModule.m; sourceTree = "<group>"; };
+		046A121424729457004C72EF /* IuleModuleCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleModuleCenter.h; sourceTree = "<group>"; };
+		046A121524729457004C72EF /* IuleError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleError.m; sourceTree = "<group>"; };
+		046A121624729457004C72EF /* IuleCall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleCall.m; sourceTree = "<group>"; };
+		046A121724729457004C72EF /* IuleModuleCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleModuleCenter.m; sourceTree = "<group>"; };
+		046A121824729457004C72EF /* IuleBaseModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseModule.h; sourceTree = "<group>"; };
+		046A121A24729457004C72EF /* IuleBaseWebProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseWebProtocol.h; sourceTree = "<group>"; };
+		046A121C24729457004C72EF /* IuleBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseViewController.h; sourceTree = "<group>"; };
+		046A121D24729457004C72EF /* IuleNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleNavigationController.h; sourceTree = "<group>"; };
+		046A121E24729457004C72EF /* IuleBaseWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseWebViewController.h; sourceTree = "<group>"; };
+		046A121F24729457004C72EF /* IuleNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleNavigationController.m; sourceTree = "<group>"; };
+		046A122024729457004C72EF /* IuleBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleBaseViewController.m; sourceTree = "<group>"; };
+		046A122124729457004C72EF /* IuleBaseWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleBaseWebViewController.m; sourceTree = "<group>"; };
+		046A122324729457004C72EF /* IuleConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleConst.h; sourceTree = "<group>"; };
+		046A122524729457004C72EF /* IuleBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleBaseModel.m; sourceTree = "<group>"; };
+		046A122624729457004C72EF /* IuleBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseModel.h; sourceTree = "<group>"; };
+		046A122824729457004C72EF /* IuleNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleNavigationBar.m; sourceTree = "<group>"; };
+		046A122924729457004C72EF /* IuleNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleNavigationBar.h; sourceTree = "<group>"; };
+		046A12932472AEA5004C72EF /* IuleLoginModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleLoginModuleProtocol.h; sourceTree = "<group>"; };
+		046A12D424738E25004C72EF /* IuleLeaderModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleLeaderModuleProtocol.h; sourceTree = "<group>"; };
+		046A12EE2473C4D7004C72EF /* IuleTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleTabBarController.h; sourceTree = "<group>"; };
+		046A12EF2473C4D7004C72EF /* IuleTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleTabBarController.m; sourceTree = "<group>"; };
+		046A130E2473D7FE004C72EF /* IuleHomeModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleHomeModuleProtocol.h; sourceTree = "<group>"; };
+		046A13252474063B004C72EF /* IuleSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleSegment.m; sourceTree = "<group>"; };
+		046A13262474063B004C72EF /* IuleSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleSegment.h; sourceTree = "<group>"; };
+		048424FC24935C3700B0B4C0 /* IulePlatformAdDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IulePlatformAdDelegate.h; sourceTree = "<group>"; };
+		048424FD24935C3700B0B4C0 /* IuleAdProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleAdProtocol.h; sourceTree = "<group>"; };
+		048424FF24935C3700B0B4C0 /* IuleBaseAdManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleBaseAdManager.h; sourceTree = "<group>"; };
+		0484250024935C3700B0B4C0 /* IuleBaseAdManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleBaseAdManager.m; sourceTree = "<group>"; };
+		0484250224935C3700B0B4C0 /* IuleAdInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IuleAdInfoModel.m; sourceTree = "<group>"; };
+		0484250324935C3700B0B4C0 /* IuleAdInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleAdInfoModel.h; sourceTree = "<group>"; };
+		0484251024935CD300B0B4C0 /* IuleAdConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleAdConst.h; sourceTree = "<group>"; };
+		0484251224935F3A00B0B4C0 /* BaseAdModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAdModule.h; sourceTree = "<group>"; };
+		0484251324935F3A00B0B4C0 /* BaseAdModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAdModule.m; sourceTree = "<group>"; };
+		048FD1CB2494C45900FDA43D /* IuleDevAppModuleProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IuleDevAppModuleProtocol.h; sourceTree = "<group>"; };
+		04A9406924A1F26900895D81 /* IuleTaskModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleTaskModuleProtocol.h; sourceTree = "<group>"; };
+		04E864B924A989BF008C3C4A /* IuleAppRequestModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleAppRequestModuleProtocol.h; sourceTree = "<group>"; };
+		04E9F8622394EF420002C4F5 /* IuleCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IuleCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E9F8652394EF420002C4F5 /* IuleCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleCore.h; sourceTree = "<group>"; };
+		04E9F8662394EF420002C4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15FD7B0E24F60DF6008D6972 /* IuleFriendModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleFriendModuleProtocol.h; sourceTree = "<group>"; };
+		15FD7B1C24F63A5C008D6972 /* IuleExclusiveModuleProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IuleExclusiveModuleProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E9F85F2394EF420002C4F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04289CD42474D1F300BABBFC /* UUMarqueeView */ = {
+			isa = PBXGroup;
+			children = (
+				04289CD52474D1F300BABBFC /* UUMarqueeView.h */,
+				04289CD62474D1F300BABBFC /* UUMarqueeView.m */,
+			);
+			path = UUMarqueeView;
+			sourceTree = "<group>";
+		};
+		0444812B248B8E370082FC86 /* SystemShare */ = {
+			isa = PBXGroup;
+			children = (
+				0444812D248B8E370082FC86 /* HCShareTool.h */,
+				0444812E248B8E370082FC86 /* HCShareTool.m */,
+				0444812F248B8E370082FC86 /* ShareItem.h */,
+				0444812C248B8E370082FC86 /* ShareItem.m */,
+			);
+			path = SystemShare;
+			sourceTree = "<group>";
+		};
+		046A11DE24729457004C72EF /* IuleCore */ = {
+			isa = PBXGroup;
+			children = (
+				046A11DF24729457004C72EF /* Core */,
+			);
+			path = IuleCore;
+			sourceTree = "<group>";
+		};
+		046A11DF24729457004C72EF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				048424FA24935C3700B0B4C0 /* Ad */,
+				046A11E024729457004C72EF /* Tools */,
+				046A11E924729457004C72EF /* Category */,
+				046A121024729457004C72EF /* Module */,
+				046A121924729457004C72EF /* Protocol */,
+				046A121B24729457004C72EF /* Controller */,
+				046A122224729457004C72EF /* Const */,
+				046A122424729457004C72EF /* Model */,
+				046A122724729457004C72EF /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		046A11E024729457004C72EF /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				0444812B248B8E370082FC86 /* SystemShare */,
+				046A11E424729457004C72EF /* IuleCacheManager.h */,
+				046A11E824729457004C72EF /* IuleCacheManager.m */,
+				046A11E624729457004C72EF /* IuleCommonMethods.h */,
+				046A11E324729457004C72EF /* IuleCommonMethods.m */,
+				046A11E224729457004C72EF /* IuleShareTool.h */,
+				046A11E724729457004C72EF /* IuleShareTool.m */,
+				046A11E524729457004C72EF /* IuleSystemInfo.h */,
+				046A11E124729457004C72EF /* IuleSystemInfo.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		046A11E924729457004C72EF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				046A11EA24729457004C72EF /* Extension */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		046A11EA24729457004C72EF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				046A120724729457004C72EF /* LYExtensionHeader.h */,
+				046A120924729457004C72EF /* NSArray+LYLog.h */,
+				046A11F324729457004C72EF /* NSArray+LYLog.m */,
+				046A11F724729457004C72EF /* NSDate+LYMethods.h */,
+				046A120C24729457004C72EF /* NSDate+LYMethods.m */,
+				046A11F924729457004C72EF /* NSDictionary+LYLog.h */,
+				046A120A24729457004C72EF /* NSDictionary+LYLog.m */,
+				046A120324729457004C72EF /* NSMutableAttributedString+LYAttributedString.h */,
+				046A11EB24729457004C72EF /* NSMutableAttributedString+LYAttributedString.m */,
+				046A11EE24729457004C72EF /* NSObject+LYRuntime.h */,
+				046A120124729457004C72EF /* NSObject+LYRuntime.m */,
+				046A11FA24729457004C72EF /* NSString+LYAttributedString.h */,
+				046A120F24729457004C72EF /* NSString+LYAttributedString.m */,
+				046A11F424729457004C72EF /* NSString+LYSize.h */,
+				046A120824729457004C72EF /* NSString+LYSize.m */,
+				046A120624729457004C72EF /* UIButton+LYPosition.h */,
+				046A11F524729457004C72EF /* UIButton+LYPosition.m */,
+				046A11FF24729457004C72EF /* UIColor+LYHex.h */,
+				046A11F024729457004C72EF /* UIColor+LYHex.m */,
+				046A11F624729457004C72EF /* UIImage+LYCreate.h */,
+				046A120524729457004C72EF /* UIImage+LYCreate.m */,
+				046A11F824729457004C72EF /* UIImage+LYGradient.h */,
+				046A120B24729457004C72EF /* UIImage+LYGradient.m */,
+				046A11FC24729457004C72EF /* UILabel+LYCreate.h */,
+				046A120D24729457004C72EF /* UILabel+LYCreate.m */,
+				046A11FE24729457004C72EF /* UITableView+LYMethods.h */,
+				046A11F224729457004C72EF /* UITableView+LYMethods.m */,
+				046A120424729457004C72EF /* UITextField+LYLimitCount.h */,
+				046A11EC24729457004C72EF /* UITextField+LYLimitCount.m */,
+				046A11ED24729457004C72EF /* UITextView+LYPlaceholder.h */,
+				046A120224729457004C72EF /* UITextView+LYPlaceholder.m */,
+				046A11FB24729457004C72EF /* UIView+LYCategory.h */,
+				046A120E24729457004C72EF /* UIView+LYCategory.m */,
+				046A11FD24729457004C72EF /* UIView+LYGradient.h */,
+				046A11F124729457004C72EF /* UIView+LYGradient.m */,
+				046A11EF24729457004C72EF /* UIViewController+IuleNavigationBar.h */,
+				046A120024729457004C72EF /* UIViewController+IuleNavigationBar.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		046A121024729457004C72EF /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				046A121824729457004C72EF /* IuleBaseModule.h */,
+				046A121324729457004C72EF /* IuleBaseModule.m */,
+				046A121224729457004C72EF /* IuleCall.h */,
+				046A121624729457004C72EF /* IuleCall.m */,
+				046A121124729457004C72EF /* IuleError.h */,
+				046A121524729457004C72EF /* IuleError.m */,
+				046A121424729457004C72EF /* IuleModuleCenter.h */,
+				046A121724729457004C72EF /* IuleModuleCenter.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		046A121924729457004C72EF /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				048FD1CB2494C45900FDA43D /* IuleDevAppModuleProtocol.h */,
+				046A12D424738E25004C72EF /* IuleLeaderModuleProtocol.h */,
+				041CA9D9247F998F00E9492C /* IuleWebModuleProtocol.h */,
+				046A12932472AEA5004C72EF /* IuleLoginModuleProtocol.h */,
+				046A121A24729457004C72EF /* IuleBaseWebProtocol.h */,
+				046A130E2473D7FE004C72EF /* IuleHomeModuleProtocol.h */,
+				045B63212477FA81005D0D4A /* IuleAppModuleProtocol.h */,
+				04A9406924A1F26900895D81 /* IuleTaskModuleProtocol.h */,
+				04E864B924A989BF008C3C4A /* IuleAppRequestModuleProtocol.h */,
+				15FD7B0E24F60DF6008D6972 /* IuleFriendModuleProtocol.h */,
+				15FD7B1C24F63A5C008D6972 /* IuleExclusiveModuleProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		046A121B24729457004C72EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				046A12EE2473C4D7004C72EF /* IuleTabBarController.h */,
+				046A12EF2473C4D7004C72EF /* IuleTabBarController.m */,
+				046A121C24729457004C72EF /* IuleBaseViewController.h */,
+				046A122024729457004C72EF /* IuleBaseViewController.m */,
+				046A121E24729457004C72EF /* IuleBaseWebViewController.h */,
+				046A122124729457004C72EF /* IuleBaseWebViewController.m */,
+				046A121D24729457004C72EF /* IuleNavigationController.h */,
+				046A121F24729457004C72EF /* IuleNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		046A122224729457004C72EF /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				046A122324729457004C72EF /* IuleConst.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		046A122424729457004C72EF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				046A122624729457004C72EF /* IuleBaseModel.h */,
+				046A122524729457004C72EF /* IuleBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		046A122724729457004C72EF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04289CD42474D1F300BABBFC /* UUMarqueeView */,
+				046A13262474063B004C72EF /* IuleSegment.h */,
+				046A13252474063B004C72EF /* IuleSegment.m */,
+				046A122924729457004C72EF /* IuleNavigationBar.h */,
+				046A122824729457004C72EF /* IuleNavigationBar.m */,
+				045B62F724776DE9005D0D4A /* IuleBaseTableViewCell.h */,
+				045B62F824776DE9005D0D4A /* IuleBaseTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		048424FA24935C3700B0B4C0 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				0484251124935F2A00B0B4C0 /* Module */,
+				0484250F24935CC800B0B4C0 /* Const */,
+				048424FB24935C3700B0B4C0 /* Protocol */,
+				048424FE24935C3700B0B4C0 /* Manager */,
+				0484250124935C3700B0B4C0 /* Model */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		048424FB24935C3700B0B4C0 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				048424FC24935C3700B0B4C0 /* IulePlatformAdDelegate.h */,
+				048424FD24935C3700B0B4C0 /* IuleAdProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		048424FE24935C3700B0B4C0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				048424FF24935C3700B0B4C0 /* IuleBaseAdManager.h */,
+				0484250024935C3700B0B4C0 /* IuleBaseAdManager.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		0484250124935C3700B0B4C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0484250324935C3700B0B4C0 /* IuleAdInfoModel.h */,
+				0484250224935C3700B0B4C0 /* IuleAdInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0484250F24935CC800B0B4C0 /* Const */ = {
+			isa = PBXGroup;
+			children = (
+				0484251024935CD300B0B4C0 /* IuleAdConst.h */,
+			);
+			path = Const;
+			sourceTree = "<group>";
+		};
+		0484251124935F2A00B0B4C0 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				0484251224935F3A00B0B4C0 /* BaseAdModule.h */,
+				0484251324935F3A00B0B4C0 /* BaseAdModule.m */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		04E9F8582394EF420002C4F5 = {
+			isa = PBXGroup;
+			children = (
+				04E9F8642394EF420002C4F5 /* IuleCore */,
+				04E9F8632394EF420002C4F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E9F8632394EF420002C4F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E9F8622394EF420002C4F5 /* IuleCore.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E9F8642394EF420002C4F5 /* IuleCore */ = {
+			isa = PBXGroup;
+			children = (
+				046A11DE24729457004C72EF /* IuleCore */,
+				04E9F8652394EF420002C4F5 /* IuleCore.h */,
+				04E9F8662394EF420002C4F5 /* Info.plist */,
+			);
+			path = IuleCore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04E9F85D2394EF420002C4F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E9F8672394EF420002C4F5 /* IuleCore.h in Headers */,
+				046A124E24729458004C72EF /* LYExtensionHeader.h in Headers */,
+				046A125724729458004C72EF /* IuleError.h in Headers */,
+				046A125824729458004C72EF /* IuleCall.h in Headers */,
+				046A126124729458004C72EF /* IuleNavigationController.h in Headers */,
+				046A122D24729457004C72EF /* IuleCacheManager.h in Headers */,
+				046A122F24729457004C72EF /* IuleCommonMethods.h in Headers */,
+				046A126624729458004C72EF /* IuleConst.h in Headers */,
+				046A122E24729457004C72EF /* IuleSystemInfo.h in Headers */,
+				046A126024729458004C72EF /* IuleBaseViewController.h in Headers */,
+				046A122B24729457004C72EF /* IuleShareTool.h in Headers */,
+				046A126A24729458004C72EF /* IuleNavigationBar.h in Headers */,
+				046A126824729458004C72EF /* IuleBaseModel.h in Headers */,
+				046A125A24729458004C72EF /* IuleModuleCenter.h in Headers */,
+				046A12942472AEA5004C72EF /* IuleLoginModuleProtocol.h in Headers */,
+				046A126224729458004C72EF /* IuleBaseWebViewController.h in Headers */,
+				046A125F24729458004C72EF /* IuleBaseWebProtocol.h in Headers */,
+				0484250C24935C3800B0B4C0 /* IuleAdInfoModel.h in Headers */,
+				046A125E24729458004C72EF /* IuleBaseModule.h in Headers */,
+				046A12D524738E25004C72EF /* IuleLeaderModuleProtocol.h in Headers */,
+				046A12F02473C4D7004C72EF /* IuleTabBarController.h in Headers */,
+				046A13282474063C004C72EF /* IuleSegment.h in Headers */,
+				04289CD72474D1F300BABBFC /* UUMarqueeView.h in Headers */,
+				045B62F924776DE9005D0D4A /* IuleBaseTableViewCell.h in Headers */,
+				046A130F2473D88F004C72EF /* IuleHomeModuleProtocol.h in Headers */,
+				04448131248B8E370082FC86 /* HCShareTool.h in Headers */,
+				04448133248B8E370082FC86 /* ShareItem.h in Headers */,
+				045B63222477FAAC005D0D4A /* IuleAppModuleProtocol.h in Headers */,
+				0484250924935C3700B0B4C0 /* IuleBaseAdManager.h in Headers */,
+				0484250724935C3700B0B4C0 /* IulePlatformAdDelegate.h in Headers */,
+				048FD1CC2494C45900FDA43D /* IuleDevAppModuleProtocol.h in Headers */,
+				04A9406A24A1F28800895D81 /* IuleTaskModuleProtocol.h in Headers */,
+				04E864BA24A98A1E008C3C4A /* IuleAppRequestModuleProtocol.h in Headers */,
+				0484250824935C3700B0B4C0 /* IuleAdProtocol.h in Headers */,
+				15FD7B0F24F60E2E008D6972 /* IuleFriendModuleProtocol.h in Headers */,
+				15FD7B1D24F63A8A008D6972 /* IuleExclusiveModuleProtocol.h in Headers */,
+				041CA9DA247F99BF00E9492C /* IuleWebModuleProtocol.h in Headers */,
+				046A124424729458004C72EF /* UIView+LYGradient.h in Headers */,
+				046A124D24729458004C72EF /* UIButton+LYPosition.h in Headers */,
+				046A123E24729457004C72EF /* NSDate+LYMethods.h in Headers */,
+				046A124624729458004C72EF /* UIColor+LYHex.h in Headers */,
+				046A124524729458004C72EF /* UITableView+LYMethods.h in Headers */,
+				046A124B24729458004C72EF /* UITextField+LYLimitCount.h in Headers */,
+				046A124124729457004C72EF /* NSString+LYAttributedString.h in Headers */,
+				046A123424729457004C72EF /* UITextView+LYPlaceholder.h in Headers */,
+				046A123F24729457004C72EF /* UIImage+LYGradient.h in Headers */,
+				046A123B24729457004C72EF /* NSString+LYSize.h in Headers */,
+				046A124324729457004C72EF /* UILabel+LYCreate.h in Headers */,
+				0484251424935F3A00B0B4C0 /* BaseAdModule.h in Headers */,
+				046A124224729457004C72EF /* UIView+LYCategory.h in Headers */,
+				046A123D24729457004C72EF /* UIImage+LYCreate.h in Headers */,
+				046A123624729457004C72EF /* UIViewController+IuleNavigationBar.h in Headers */,
+				046A124A24729458004C72EF /* NSMutableAttributedString+LYAttributedString.h in Headers */,
+				046A124024729457004C72EF /* NSDictionary+LYLog.h in Headers */,
+				046A123524729457004C72EF /* NSObject+LYRuntime.h in Headers */,
+				046A125024729458004C72EF /* NSArray+LYLog.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04E9F8612394EF420002C4F5 /* IuleCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E9F86A2394EF420002C4F5 /* Build configuration list for PBXNativeTarget "IuleCore" */;
+			buildPhases = (
+				04E9F85D2394EF420002C4F5 /* Headers */,
+				04E9F85E2394EF420002C4F5 /* Sources */,
+				04E9F85F2394EF420002C4F5 /* Frameworks */,
+				04E9F8602394EF420002C4F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IuleCore;
+			productName = IuleCore;
+			productReference = 04E9F8622394EF420002C4F5 /* IuleCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E9F8592394EF420002C4F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = iule;
+				TargetAttributes = {
+					04E9F8612394EF420002C4F5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04E9F85C2394EF420002C4F5 /* Build configuration list for PBXProject "IuleCore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E9F8582394EF420002C4F5;
+			productRefGroup = 04E9F8632394EF420002C4F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E9F8612394EF420002C4F5 /* IuleCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E9F8602394EF420002C4F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E9F85E2394EF420002C4F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				046A125924729458004C72EF /* IuleBaseModule.m in Sources */,
+				046A126324729458004C72EF /* IuleNavigationController.m in Sources */,
+				046A122C24729457004C72EF /* IuleCommonMethods.m in Sources */,
+				046A125624729458004C72EF /* NSString+LYAttributedString.m in Sources */,
+				04448130248B8E370082FC86 /* ShareItem.m in Sources */,
+				046A126424729458004C72EF /* IuleBaseViewController.m in Sources */,
+				046A124824729458004C72EF /* NSObject+LYRuntime.m in Sources */,
+				046A126524729458004C72EF /* IuleBaseWebViewController.m in Sources */,
+				04289CD82474D1F300BABBFC /* UUMarqueeView.m in Sources */,
+				046A125324729458004C72EF /* NSDate+LYMethods.m in Sources */,
+				046A123024729457004C72EF /* IuleShareTool.m in Sources */,
+				046A125524729458004C72EF /* UIView+LYCategory.m in Sources */,
+				046A123324729457004C72EF /* UITextField+LYLimitCount.m in Sources */,
+				046A125C24729458004C72EF /* IuleCall.m in Sources */,
+				046A124724729458004C72EF /* UIViewController+IuleNavigationBar.m in Sources */,
+				046A123224729457004C72EF /* NSMutableAttributedString+LYAttributedString.m in Sources */,
+				046A125224729458004C72EF /* UIImage+LYGradient.m in Sources */,
+				046A123724729457004C72EF /* UIColor+LYHex.m in Sources */,
+				046A12F12473C4D7004C72EF /* IuleTabBarController.m in Sources */,
+				046A124C24729458004C72EF /* UIImage+LYCreate.m in Sources */,
+				0484250A24935C3700B0B4C0 /* IuleBaseAdManager.m in Sources */,
+				046A13272474063C004C72EF /* IuleSegment.m in Sources */,
+				04448132248B8E370082FC86 /* HCShareTool.m in Sources */,
+				046A123824729457004C72EF /* UIView+LYGradient.m in Sources */,
+				046A125424729458004C72EF /* UILabel+LYCreate.m in Sources */,
+				046A126924729458004C72EF /* IuleNavigationBar.m in Sources */,
+				045B62FA24776DE9005D0D4A /* IuleBaseTableViewCell.m in Sources */,
+				046A123C24729457004C72EF /* UIButton+LYPosition.m in Sources */,
+				046A125D24729458004C72EF /* IuleModuleCenter.m in Sources */,
+				046A123A24729457004C72EF /* NSArray+LYLog.m in Sources */,
+				046A124924729458004C72EF /* UITextView+LYPlaceholder.m in Sources */,
+				0484251524935F3A00B0B4C0 /* BaseAdModule.m in Sources */,
+				046A122A24729457004C72EF /* IuleSystemInfo.m in Sources */,
+				046A123924729457004C72EF /* UITableView+LYMethods.m in Sources */,
+				046A123124729457004C72EF /* IuleCacheManager.m in Sources */,
+				046A125124729458004C72EF /* NSDictionary+LYLog.m in Sources */,
+				0484250B24935C3800B0B4C0 /* IuleAdInfoModel.m in Sources */,
+				046A124F24729458004C72EF /* NSString+LYSize.m in Sources */,
+				046A125B24729458004C72EF /* IuleError.m in Sources */,
+				046A126724729458004C72EF /* IuleBaseModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04E9F8682394EF420002C4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		04E9F8692394EF420002C4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		04E9F86B2394EF420002C4F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T9QHRQZ8LZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IuleCore/IuleCore/Bundle",
+				);
+				INFOPLIST_FILE = IuleCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iule.IuleCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04E9F86C2394EF420002C4F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T9QHRQZ8LZ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IuleCore/IuleCore/Bundle",
+				);
+				INFOPLIST_FILE = IuleCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iule.IuleCore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E9F85C2394EF420002C4F5 /* Build configuration list for PBXProject "IuleCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9F8682394EF420002C4F5 /* Debug */,
+				04E9F8692394EF420002C4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E9F86A2394EF420002C4F5 /* Build configuration list for PBXNativeTarget "IuleCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E9F86B2394EF420002C4F5 /* Debug */,
+				04E9F86C2394EF420002C4F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E9F8592394EF420002C4F5 /* Project object */;
+}
